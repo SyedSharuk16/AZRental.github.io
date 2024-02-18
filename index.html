@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZ Rental</title>
+    <!-- link to css-->
+    <link rel="stylesheet" href="style.css">
+    <!--ions-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- Head-->
+    <header>
+        <a href="#" class="logo"><img src="Assests/AZlogo.png" alt="Car Rental"></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rent">Rent</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+        <div class="header-btn">
+            <a href="#" class="sign-up">Sign Up</a>
+            <a href="#" class="sign-in">Sign In</a>
+        </div>
+
+    </header>
+
+    <!--main section-->
+
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span>Rent your <span>car</span> today</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisici</p>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <div class="input-box">
+                    <span>Location</span>
+                    <input type="search" name="" id="" placeholder="Search rental nearby">
+                </div>
+                <div class="input-box">
+                    <span>Pick-up Date</span>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="input-box">
+                    <span>Return Date</span>
+                    <input type="date" name="" id="">
+                </div>
+                <input type="submit" name="" id="" class="btn">
+            </form>
+        </div>
+    </section>
+ <!-- rental-->
+    <section class="rent" id="rent">
+        <div class ="heading">
+            <span>How it works</span>
+            <h1>Rent with 3 simple steps</h1>
+        </div>
+        <div class="rent-container">
+            <div class="box">
+                <i class="bx bxs-map"> </i>
+                <h2>Choose from two of our location</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo amet minus provident assumenda dolore anim</p>
+            </div>
+
+            <div class="box">
+                <i class="bx bxs-calendar-check"> </i>
+                <h2>Pick-up date</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo amet minus provident assumenda dolore anim</p>
+
+            </div>
+
+            <div class="box">
+                <i class="bx bxs-calendar-star"> </i>
+                <h2>Book a car</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo amet minus provident assumenda dolore anim</p>
+
+            </div>
+            </div>
+
+    </section>
+
+    <!--services-->
+    <section class="rent" id="rent">
+        <div class ="heading">
+            <h1>Explore our EQ Cars</h1>
+        </div>
+        <div class="services-container">
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assests/Eqs.jpg" alt="EQS">
+                </div>
+                <h2>2023 Mercedes-benz EQS</h2>
+                <h3>$490,000 | $3990 <span>/month</span></h3>
+                <a href="" class="btn" id="rentNowBtn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assests/Tesla.jpg" alt="Tesla">
+                </div>
+                <h2>2019 Tesla Model S</h2>
+                <h3>$320,000 | $2500 <span>/month</span></h3>
+                <a href="#" class="btn rentNowBtn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assests/Lotus Eletre.jpg" alt="lotus">
+                </div>
+                <h2>2024 Lotus Eletre</h2>
+                <h3>$450,000 | $3390 <span>/month</span></h3>
+                <a href="#" class="btn rentNowBtn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assests/Porsche Taycan.jpg" alt="taycan">
+                </div>
+                <h2>2020 Porsche Taycan</h2>
+                <h3>$605,000 | $5100 <span>/month</span></h3>
+                <a href="#" class="btn rentNowBtn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="Assests/Jaguar I pace.jpg" alt="Jaguar">
+                </div>
+                <h2>2023 Jaguar I Pace</h2>
+                <h3>$299,000 | $4300 <span>/month</span></h3>
+                <a href="#" class="btn rentNowBtn">Rent Now</a>
+            </div>
+
+        </div>
+            <!-- Modal -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Enter Card Details</h2>
+        <input type="text" placeholder="Card Number">
+        <input type="text" placeholder="Expiry Date">
+        <input type="text" placeholder="CVV">
+        <button id="payButton">Pay</button>
+    </div>
+</div>
+    </section>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
